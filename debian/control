@@ -1,0 +1,15 @@
+Source: linuxinfo
+Section: utils
+Priority: optional
+Maintainer: Helge Kreutzmann <debian@helgefjell.de>
+Build-Depends: debhelper (>= 12), po4a, libpcre2-dev [i386], libpcre2-dev [amd64], libpcre2-dev [x32], debhelper-compat (= 12)
+Rules-Requires-Root: no
+Standards-Version: 4.6.0
+Homepage: http://www.helgefjell.de/linuxinfo.php
+
+Package: linuxinfo
+Architecture: linux-any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Displays extended system information
+ Displays system info, such as kernel revision, glibc version,
+ processor type and memory size, in general by parsing /proc/cpuinfo.

@@ -1,0 +1,10 @@
+linuxinfo (3.1.0-1) unstable; urgency=medium
+
+    Linuxinfo now uses regular expressions in x86(-64). Thus it should detect
+    vastly more machines than previously.
+
+    If your machine is not detected (i.e. "Unknown" is shown) please report it
+    (preferably using reportbug(1)) so that I can add it.
+    
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Tue, 25 Aug 2018 14:00:51 +0100
