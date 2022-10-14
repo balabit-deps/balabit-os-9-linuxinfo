@@ -1,0 +1,125 @@
+# Dutch translation of linuxinfo
+# This file is distributed under the same license as the linuxinfo package.
+# Copyright (C) 2014,2018 Helge Kreutzmann <debian@helgefjell.de>
+# Frans Spiesschaert <Frans.Spiesschaert@yucom.be>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxinfo 3.0.0\n"
+"Report-Msgid-Bugs-To: Helge Kreutzmann <debian@helgefjell.de>\n"
+"POT-Creation-Date: 2021-10-16 14:17+0200\n"
+"PO-Revision-Date: 2018-08-25 13:36+0200\n"
+"Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
+"Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#: linuxinfo.c:57
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: linuxinfo.c:57
+msgid "One"
+msgstr "Een"
+
+#: linuxinfo.c:57
+msgid "Two"
+msgstr "Twee"
+
+#: linuxinfo.c:57
+msgid "Three"
+msgstr "Drie"
+
+#: linuxinfo.c:57
+msgid "Four"
+msgstr "Vier"
+
+#: linuxinfo.c:57
+msgid "Five"
+msgstr "Vijf"
+
+#: linuxinfo.c:57
+msgid "Six"
+msgstr "Zes"
+
+#: linuxinfo.c:57
+msgid "Seven"
+msgstr "Zeven"
+
+#: linuxinfo.c:57
+msgid "Eight"
+msgstr "Acht"
+
+#: linuxinfo.c:57
+msgid "Nine"
+msgstr "Negen"
+
+#: linuxinfo.c:57
+msgid "Ten"
+msgstr "Tien"
+
+#: linuxinfo.c:57
+msgid "Eleven"
+msgstr "Elf"
+
+#: linuxinfo.c:57
+msgid "Twelve"
+msgstr "Twaalf"
+
+#: linuxinfo.c:81
+#, c-format
+msgid " -h   print this help\n"
+msgstr " -h   geef deze hulp weer\n"
+
+#: linuxinfo.c:82
+#, c-format
+msgid " -v   print linuxinfo version\n"
+msgstr " -v   geef de versie van linuxinfo weer\n"
+
+#: linuxinfo.c:89
+#, c-format
+msgid "Unsupported option or file %s not found.\n"
+msgstr "Niet-ondersteunde optie of bestand %s niet gevonden.\n"
+
+#: linuxinfo.c:98
+#, c-format
+msgid "Could not open %s.\n"
+msgstr "Kon %s niet openen\n"
+
+#: linuxinfo.c:124
+#, c-format
+msgid "processor"
+msgid_plural "processors"
+msgstr[0] "processor"
+msgstr[1] "processors"
+
+#: linuxinfo.c:127
+#, c-format
+msgid ", %s total bogomips, %sM RAM\n"
+msgstr ", %s bogomipstotaal, %sM RAM\n"
+
+#: linuxinfo.c:134
+#, c-format
+msgid "System library %s\n"
+msgstr "Systeembibliotheek %s\n"
+
+#: linuxinfo_common.c:148
+#, c-format
+msgid "Could not stat /proc/meminfo, result can be inaccurate\n"
+msgstr ""
+"Kon de status van /proc/meminfo niet opvragen, het resultaat kan "
+"onnauwkeurig zijn\n"
+
+#: linuxinfo_common.c:238
+#, c-format
+msgid "PCRE2 compilation failed at offset %d: %s\n"
+msgstr "PCRE2-compilatie mislukte bij plaats %d: %s\n"
+
+#: linuxinfo_common.c:274
+#, c-format
+msgid "Matching error %d\n"
+msgstr "Fout bij het vergelijken %d\n"

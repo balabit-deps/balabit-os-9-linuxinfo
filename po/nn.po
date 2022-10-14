@@ -1,0 +1,123 @@
+# Copyright (C) 2014,2018 Helge Kreutzmann <debian@helgefjell.de>
+# This file is distributed under the same license as the linuxinfo package.
+#
+# Yngve Spjeld-Landro <l10n@landro.net>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxinfo 3.0.0\n"
+"Report-Msgid-Bugs-To: Helge Kreutzmann <debian@helgefjell.de>\n"
+"POT-Creation-Date: 2021-10-16 14:17+0200\n"
+"PO-Revision-Date: 2018-08-25 13:36+0200\n"
+"Last-Translator: Yngve Spjeld-Landro <l10n@landro.net>\n"
+"Language-Team: NorwegianNynorsk <i18n-nn@lister.ping.uio.no>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: linuxinfo.c:57
+msgid "Unknown"
+msgstr "Ukjend"
+
+#: linuxinfo.c:57
+msgid "One"
+msgstr "Ein"
+
+#: linuxinfo.c:57
+msgid "Two"
+msgstr "To"
+
+#: linuxinfo.c:57
+msgid "Three"
+msgstr "Tre"
+
+#: linuxinfo.c:57
+msgid "Four"
+msgstr "Fire"
+
+#: linuxinfo.c:57
+msgid "Five"
+msgstr "Fem"
+
+#: linuxinfo.c:57
+msgid "Six"
+msgstr "Seks"
+
+#: linuxinfo.c:57
+msgid "Seven"
+msgstr "Sju"
+
+#: linuxinfo.c:57
+msgid "Eight"
+msgstr "Åtte"
+
+#: linuxinfo.c:57
+msgid "Nine"
+msgstr "Ni"
+
+#: linuxinfo.c:57
+msgid "Ten"
+msgstr "Ti"
+
+#: linuxinfo.c:57
+msgid "Eleven"
+msgstr "Elleve"
+
+#: linuxinfo.c:57
+msgid "Twelve"
+msgstr "Tolv"
+
+#: linuxinfo.c:81
+#, c-format
+msgid " -h   print this help\n"
+msgstr " -h   skriv ut denne hjelpa\n"
+
+#: linuxinfo.c:82
+#, c-format
+msgid " -v   print linuxinfo version\n"
+msgstr " -v   skriv ut linuxinfo-utgåva\n"
+
+#: linuxinfo.c:89
+#, c-format
+msgid "Unsupported option or file %s not found.\n"
+msgstr "Valet vert ikkje nytta eller so finst ikkje fila %s.\n"
+
+#: linuxinfo.c:98
+#, c-format
+msgid "Could not open %s.\n"
+msgstr "Klarte ikkje å opna %s.\n"
+
+#: linuxinfo.c:124
+#, c-format
+msgid "processor"
+msgid_plural "processors"
+msgstr[0] "prosessor"
+msgstr[1] "prosessorar"
+
+#: linuxinfo.c:127
+#, c-format
+msgid ", %s total bogomips, %sM RAM\n"
+msgstr ", %s bogomips i alt, %sM minne\n"
+
+#: linuxinfo.c:134
+#, c-format
+msgid "System library %s\n"
+msgstr "Systembibliotek %s\n"
+
+#: linuxinfo_common.c:148
+#, c-format
+msgid "Could not stat /proc/meminfo, result can be inaccurate\n"
+msgstr ""
+"Klarte ikkje å køyra stat /proc/meminfo, resultatet kan vera unøyaktig\n"
+
+#: linuxinfo_common.c:238
+#, c-format
+msgid "PCRE2 compilation failed at offset %d: %s\n"
+msgstr "PCRE2-kompileringa feila ved forskyvinga %d: %s\n"
+
+#: linuxinfo_common.c:274
+#, c-format
+msgid "Matching error %d\n"
+msgstr "Samsvarsfeil %d\n"
